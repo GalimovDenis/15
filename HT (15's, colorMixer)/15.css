@@ -1,0 +1,44 @@
+@import url(../Common/common.css);
+
+.fifteens{
+    height: 85vmin;
+    width: 85vmin;
+    background-color: antiquewhite;
+    border: 0.5vmin solid gray;
+    padding: 1vmin;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.fifteens div{
+    height: 23%;
+    width: 23%;
+    background-color: bisque;
+    font-size: 14vmin;
+    text-align: center;
+    margin: 0.75vmin;
+    /*display: inline-grid;*/
+    border: 0.2vmin solid gray;
+    border-radius: 2.5vmin;
+    /*float: left;*/
+    user-select: none;
+    position: absolute;
+    transition: 0.5s;
+}
+#i0{
+    visibility: hidden;
+}
+
+.x0{ left: 0%;}
+.x1{ left: 25%;}
+.x2{ left: 50%;}
+.x3{ left: 75%;}
+.y0{ top: 0%;}
+.y1{ top: 25%;}
+.y2{ top: 50%;}
+.y3{ top: 75%;}
